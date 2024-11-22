@@ -11,7 +11,7 @@ require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/noisetorch/pulseaudio v0.0.0-20220603053345-9303200c3861
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
-	golang.org/x/crypto v0.14.0
+	golang.org/x/crypto v0.29.0
 )
 
 require (
@@ -24,6 +24,6 @@ require (
 	golang.org/x/exp v0.0.0-20220104160115-025e73f80486 // indirect
 	golang.org/x/image v0.5.0 // indirect
 	golang.org/x/mobile v0.0.0-20220104184238-4a8be17bd2e3 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/sys v0.27.0 // indirect
+	golang.org/x/text v0.20.0 // indirect
 )
