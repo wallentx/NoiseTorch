@@ -152,6 +152,7 @@ func fetchFile(file string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("received on 200 status code when fetching %s. Status: %s", file, resp.Status)
 	}
